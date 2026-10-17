@@ -49,7 +49,7 @@ The `name` field in a marketplace entry is an **immutable slug**. Once a plugin 
 - To change how a plugin is labeled in the UI, set or update `displayName` instead.
 - If a rename is genuinely unavoidable, add an entry to the top-level `renames` map in `.claude-plugin/marketplace.json` so existing installs auto-migrate:
 
-```json
+```json 
 "renames": {
   "old-name": "new-name"
 }
